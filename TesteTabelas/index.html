@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            position: relative;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+            
+        }
+        thead{
+            border: 1px solid black;
+            background-color: brown;
+            color: red;
+        }
+        tfoot {
+            border: 1px solid black;
+            background-color: brown;
+            color: red;
+        }
+        th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        caption {
+            padding: 5px;
+            font-size: 2em;
+            background-color: rgba(82, 20, 20, 0.733);
+            color: rgb(255, 92, 92);
+        }
+        tbody tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+        tbody td {
+            height: 50px;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: brown;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <table>
+        <caption>Legenda da TABELA</caption>
+        <thead>
+            <tr>
+                <th scope="col">Cabeça 1</th>
+                <th scope="col">Cabeça 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Conclusão:</th>
+                <td>Dado Conclusão</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
